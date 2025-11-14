@@ -36,6 +36,15 @@ npm run dev
 
 ```
 
+## Run with Docker Compose
+```sh
+# Build the production image and start the container
+docker compose up --build
+
+# The Next.js app will be available at http://localhost:8061
+```
+> ℹ️ Create an `.env.local` file in the project root (or adjust `docker-compose.yml`) so the container receives the same environment variables you use locally.
+
 Access the project root at / to join as a player.
 
 Access /host to join as a host.

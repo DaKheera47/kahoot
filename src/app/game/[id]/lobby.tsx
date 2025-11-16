@@ -51,7 +51,7 @@ export default function Lobby({
   }, [gameId, onRegisterCompleted])
 
   return (
-    <div className="bg-green-500 flex justify-center items-center min-h-screen">
+    <div className="bg-violet-500 flex justify-center items-center min-h-screen">
       <div className="bg-black p-12">
         {!participant && (
           <Register
